@@ -43,14 +43,24 @@ h1 {
 	justify-content: space-between;
 	padding: 0 20px;
 	min-height: 100px;
-	min-width: 250px;
+	width: 250px;
 	align-items: center;
 	border-radius: 7px;
 	opacity: 0.8;
 	margin-bottom: 15px;
+	position: relative;
 }
 .projects--item:hover {
 	opacity: 1;
+}
+.projects--item span {
+	position: absolute;
+	bottom: 5px;
+	left: 20px;
+	font-size: 14px;
+	color: #664545;
+	text-transform: lowercase;
+	
 }
 .projects a {
 	font-size: 25px;
@@ -69,7 +79,7 @@ h1 {
 	margin-bottom: 20px;
 }
 .projects--item__hot {
-	color: orangered;
+	
 }
 
 
